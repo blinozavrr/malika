@@ -1,11 +1,99 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Syzdykova</title>
-    </head>
-    <body>
-        <h1>Admission to Astana IT University</h1>
-        <p>Astana IT University offers a wide range of undergraduate and graduate programs designed to provide students with the skills and knowledge needed in the IT industry. To apply for admission, you can visit the official website and follow the step-by-step application process.</p>
-        <p>For more information, visit the official website: <a href="https://astanait.edu.kz/">Astana IT University</a></p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Solar System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            background-color: #282c34;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #61dafb;
+            text-decoration: none;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Solar System</h1>
+        <nav>
+            <a href="#planets">Planets</a>
+            <a href="#interesting-facts">Interesting Facts</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="planets">
+            <h2>Planets of the Solar System</h2>
+            <p>The Solar System is made up of eight planets, which orbit the Sun. These planets are:</p>
+            <ol>
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+                <li>Jupiter</li>
+                <li>Saturn</li>
+                <li>Uranus</li>
+                <li>Neptune</li>
+            </ol>
+            <figure>
+                <img src="solar-system.jpg" alt="The Solar System image" width="400">
+                <figcaption>An illustration of the Solar System</figcaption>
+            </figure>
+        </section>
+
+        <section id="interesting-facts">
+            <h2>Interesting Facts about the Solar System</h2>
+            <blockquote>
+                "The Sun contains 99.86% of the mass in the Solar System."
+            </blockquote>
+            <p>Did you know that the Solar System is more than 4.5 billion years old? Also, the distance between the Earth and the Sun is about 93 million miles (150 million kilometers).</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+
+                <label for="planets">Your favorite planet:</label>
+                <select id="planets" name="planets">
+                    <option value="earth">Earth</option>
+                    <option value="mars">Mars</option>
+                    <option value="jupiter">Jupiter</option>
+                    <option value="saturn">Saturn</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by: Your Name | Date: September 2024</p>
+    </footer>
+</body>
 </html>
