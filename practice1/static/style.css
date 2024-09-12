@@ -1,0 +1,2891 @@
+.home-page {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 747px;
+  position: relative;
+}
+
+.home-page .div {
+    background-color: #ffffff;
+  display: flex;
+  flex-direction: column; /* Изменили на column */
+  align-items: center; /* Выровняли по центру */
+  width: 100%;
+  min-height: 100%;
+  flex: 1;
+}
+
+.home-page .div-2 {
+  position: absolute;
+  width: 1606px;
+  height: 747px;
+  top: 0;
+  left: 0;
+}
+
+.home-page .overlap {
+  position: relative;
+  width: 1600px;
+  height: 747px;
+}
+
+.home-page .bg {
+  position: absolute;
+  width: 1600px;
+  height: 747px;
+  top: 0;
+  left: 0;
+}
+
+.home-page .overlap-group {
+  position: relative;
+  height: 747px;
+}
+
+.home-page .image-bg {
+  position: absolute;
+  width: 829px;
+  height: 747px;
+  top: 0;
+  left: 771px;
+  object-fit: cover;
+}
+
+.home-page .rect-bg {
+  position: absolute;
+  width: 801px;
+  height: 747px;
+  top: 0;
+  left: 0;
+}
+
+.home-page .image {
+  position: absolute;
+  width: 394px;
+  height: 519px;
+  top: 114px;
+  left: 244px;
+  object-fit: cover;
+}
+
+.home-page .rectaut {
+  position: absolute;
+  width: 541px;
+  height: 338px;
+  top: 205px;
+  left: 531px;
+  background-color: #ffffff99;
+  border-radius: 30px;
+  box-shadow: 9px 10px 17px #00000040;
+}
+
+.home-page .text-wrapper {
+  position: absolute;
+  top: 266px;
+  left: 621px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .p {
+  position: absolute;
+  top: 366px;
+  left: 640px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .rectcat {
+  position: absolute;
+  width: 279px;
+  height: 46px;
+  top: 436px;
+  left: 662px;
+  background-color: #ffffff;
+  border-radius: 23px;
+  box-shadow: 0px 4px 11px #00000040;
+}
+
+.home-page .text-wrapper-2 {
+  position: absolute;
+  top: 449px;
+  left: 735px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .arrow {
+  position: absolute;
+  width: 40px;
+  height: 7px;
+  top: 457px;
+  left: 829px;
+  object-fit: cover;
+}
+
+
+
+.user_body {
+
+  
+}
+
+.user_page {
+  background-color: #ffffff;
+  width: 1600px;
+  height: 747px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_page .pos {
+  width: 443px;
+  height: 268px;
+  position: absolute;
+  top: 50%; /* Расположение по вертикали относительно .user_page */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрирование по горизонтали и вертикали */
+  /* Другие стили */
+}
+
+/* Ваш остальной CSS код */
+
+
+
+
+
+.user_page .sign_1 {
+position: absolute;
+top: -1px;
+left: 176px;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #2c2c2c;
+font-size: 25px;
+letter-spacing: 0.75px;
+line-height: 28.5px;
+white-space: nowrap;
+}
+.user_page .group-5 {
+position: absolute;
+width: 445px;
+height: 27px;
+top: 68px;
+left: 0;
+}
+.user_page .line-2 {
+position: absolute;
+width: 443px;
+height: 1px;
+top: 26px;
+left: 0;
+object-fit: cover;
+}
+.user_page .text-wrapper-14 {
+position: absolute;
+top: 0;
+left: 0;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: black;
+font-size: 14px;
+letter-spacing: 0;
+line-height: 15.9px;
+white-space: nowrap;
+border: none; /* Убираем границу */
+outline: none; /* Убираем выделение при фокусе */
+padding-bottom: 5px; /* Добавляем нижний отступ, чтобы компенсировать отсутствие границы и увеличить активную зону */
+transition: padding-bottom 0.3s; /* Добавляем плавный переход для активной зоны */
+padding-bottom: 10px;
+width: 443px;
+}
+.user_page .group-6 {
+position: absolute;
+width: 445px;
+height: 27px;
+top: 135px;
+left: 0;
+}
+.user_page .group-7 {
+position: absolute;
+width: 370px;
+height: 56px;
+top: 212px;
+left: 36px;
+}
+.user_page .overlap-group-wrapper {
+width: 372px;
+height: 56px;
+}
+.user_page .overlap-group {
+position: relative;
+width: 370px;
+height: 56px;
+background-image: url(../img/rect_sign.svg);
+background-size: 100% 100%;
+}
+.user_page .text-wrapper-15 {
+position: absolute;
+top: 19px;
+left: 156px;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 16px;
+letter-spacing: 0.48px;
+line-height: 18.2px;
+white-space: nowrap;
+}
+
+.button {
+        border: none;
+        background: none;
+        color: #ffffff;
+        font-family: 'Montserrat', Helvetica;
+        transition: transform 0.2s ease, background-color 0.3s ease; /* добавляем анимацию для свойства transform и background-color */
+    }
+
+.image-button {
+    width: 370px;
+    height: 56px;
+    border: none;
+    background-image: url(../img/rect_sign.svg);
+    background-size: cover;
+    transition: transform 0.2s ease, background-color 0.3s ease; /* добавляем анимацию для свойства transform и background-color */
+}
+
+.image-button:hover {
+    transform: translateY(-2px); /* поднимаем кнопку на 2 пикселя при наведении */
+    background-color: rgba(255, 255, 255, 0.2); /* изменяем цвет фона при наведении */
+}
+.delivery{background-color: #ffffff;
+  width: 1600px;
+  height: 747px;
+  position: relative;
+  display: flex;
+  align-items: center;
+    justify-content: center;}
+
+.delivery .group {
+position: absolute;
+width: 980px;
+height: 563px;
+top: 184px;
+left: 313px;
+}
+.delivery .element-dress-verseser {
+position: absolute;
+width: 388px;
+height: 635px;
+top: -32px;
+left: 613px;
+object-fit: cover;
+}
+.delivery .group-2 {
+position: absolute;
+width: 441px;
+height: 243px;
+top: 99px;
+left: 0;
+}
+.delivery .text-wrapper-4 {
+top: 0;
+font-family: "Montserrat-Medium", Helvetica;
+font-weight: 500;
+color: #000000;
+font-size: 48px;
+position: absolute;
+left: 0;
+letter-spacing: 0;
+line-height: normal;
+}
+.delivery .orders-from {
+position: absolute;
+width: 433px;
+top: 123px;
+left: 4px;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 16px;
+letter-spacing: 0;
+line-height: normal;
+}
+
+
+.contacts{
+    background-color: #ffffff;
+  width: 1600px;
+  height: 747px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts .group {
+position: absolute;
+width: 975px;
+height: 561px;
+top: 174px;
+left: 311px;
+}
+.contacts .group-2 {
+position: absolute;
+width: 419px;
+height: 303px;
+top: 99px;
+left: 0;
+}
+.contacts .text-wrapper-4 {
+width: 330px;
+top: 0;
+font-family: "Montserrat-Medium", Helvetica;
+font-weight: 500;
+color: #000000;
+font-size: 48px;
+position: absolute;
+left: 0;
+letter-spacing: 0;
+line-height: normal;
+}
+.contacts .office-astana-avenue {
+position: absolute;
+width: 413px;
+top: 123px;
+left: 2px;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 16px;
+letter-spacing: 0;
+line-height: normal;
+}
+.contacts .span {
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 16px;
+letter-spacing: 0;
+}
+.contacts .element-dress-verseser {
+position: absolute;
+width: 315px;
+height: 561px;
+top: 0;
+left: 660px;
+object-fit: cover;
+}
+
+
+.clothes{
+  background-color: #ffffff;
+  width: 1600px;
+  height: 747px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clothes .formen {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 219px;
+left: 338px;
+object-fit: cover;
+}
+.clothes .shoes {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 219px;
+left: 898px;
+object-fit: cover;
+}
+.clothes .forkid {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 461px;
+left: 338px;
+object-fit: cover;
+}
+.clothes .women {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 461px;
+left: 898px;
+object-fit: cover;
+}
+
+.accessories{
+  background-color: #ffffff;
+  width: 1600px;
+  height: 747px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accessories .scarves {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 219px;
+left: 898px;
+object-fit: cover;
+}
+.accessories .bags {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 461px;
+left: 338px;
+object-fit: cover;
+}
+.accessories .glasses {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 219px;
+left: 338px;
+object-fit: cover;
+}
+.accessories .clocks {
+position: absolute;
+width: 360px;
+height: 162px;
+top: 461px;
+left: 898px;
+object-fit: cover;
+}
+
+.sale{
+  background-color: #ffffff;
+  width: 1600px;
+  height: 2542px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sale .div-2 {
+width: 1606px;
+height: 954px;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+
+.sale .text-wrapper-3 {
+position: absolute;
+top: 0;
+left: 35px;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 16px;
+letter-spacing: 0;
+line-height: normal;
+}
+
+.sale .overlap-group {
+width: 1600px;
+height: 957px;
+background-image: url(../img/sale_bg.png);
+background-size: 100% 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.sale .text-wrapper-4 {
+position: absolute;
+top: 177px;
+left: 574px;
+font-family: 'Montserrat-Medium', Helvetica, sans-serif;
+font-weight: 500;
+color: #000000;
+font-size: 48px;
+letter-spacing: 0;
+line-height: normal;
+}
+.sale .text-wrapper-5 {
+position: absolute;
+top: 246px;
+left: 699px;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 24px;
+letter-spacing: 0;
+line-height: normal;
+}
+.sale .text-wrapper-6 {
+position: absolute;
+top: 1038px;
+left: 666px;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 24px;
+letter-spacing: 0;
+line-height: normal;
+}
+.sale .div-3 {
+position: absolute;
+width: 274px;
+height: 416px;
+top: 1161px;
+left: 215px;
+}
+.sale .overlap {
+width: 270px;
+height: 353px;
+background-image: url(../img/sale_1.png);
+background-size: cover;
+background-position: 50% 50%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.sale .vector {
+left: 235px;
+position: absolute;
+width: 21px;
+height: 18px;
+top: 17px;
+}
+.sale .text-wrapper-7 {
+top: 373px;
+position: absolute;
+left: 0;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #2c2c2c;
+font-size: 16px;
+letter-spacing: 0;
+line-height: 18.2px;
+white-space: nowrap;
+}
+.sale .text-wrapper-8 {
+top: 399px;
+position: absolute;
+left: 0;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #2c2c2c;
+font-size: 15px;
+letter-spacing: 0;
+line-height: 17.1px;
+white-space: nowrap;
+}
+.sale .div-4 {
+position: absolute;
+width: 274px;
+height: 416px;
+top: 1161px;
+left: 515px;
+}
+.sale .vector-wrapper {
+width: 270px;
+height: 353px;
+background-image: url(../img/sale_2.png);
+background-size: cover;
+background-position: 50% 50%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.sale .div-5 {
+position: absolute;
+width: 274px;
+height: 416px;
+top: 1161px;
+left: 815px;
+}
+.sale .img-wrapper {
+width: 270px;
+height: 353px;
+background-image: url(../img/sale_3.png);
+background-size: cover;
+background-position: 50% 50%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.sale .div-6 {
+position: absolute;
+width: 274px;
+height: 416px;
+top: 1161px;
+left: 1115px;
+}
+.sale .overlap-2 {
+width: 270px;
+height: 353px;
+background-image: url(../img/Sale_4.png);
+background-size: cover;
+background-position: 50% 50%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.sale .div-7 {
+position: absolute;
+width: 574px;
+height: 712px;
+top: 1630px;
+left: 215px;
+}
+.sale .text-wrapper-9 {
+top: 669px;
+position: absolute;
+left: 0;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #2c2c2c;
+font-size: 16px;
+letter-spacing: 0;
+line-height: 18.2px;
+white-space: nowrap;
+}
+.sale .text-wrapper-10 {
+top: 695px;
+position: absolute;
+left: 0;
+font-family: "Montserrat-Regular", Helvetica;
+font-weight: 400;
+color: #2c2c2c;
+font-size: 15px;
+letter-spacing: 0;
+line-height: 17.1px;
+white-space: nowrap;
+}
+.sale .overlap-3 {
+width: 570px;
+height: 649px;
+position: absolute;
+top: 0;
+left: 0;
+}
+.sale .rectangle-2 {
+width: 570px;
+height: 425px;
+left: 0;
+background-color: #fafafa;
+position: absolute;
+top: 0;
+}
+.sale .img-2 {
+position: absolute;
+width: 570px;
+height: 649px;
+top: 0;
+left: 0;
+object-fit: cover;
+}
+.sale .vector-2 {
+left: 535px;
+position: absolute;
+width: 21px;
+height: 18px;
+top: 17px;
+}
+.sale .div-8 {
+position: absolute;
+width: 574px;
+height: 712px;
+top: 1630px;
+left: 815px;
+}
+.sale .fluent-heart {
+position: absolute;
+width: 21px;
+height: 18px;
+top: 12px;
+left: 532px;
+}
+.sale .footer {
+position: absolute;
+width: 1600px;
+height: 428px;
+top: 2542px;
+left: 0;
+background-color: transparent;
+}
+
+.shoes {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.shoes .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.shoes .bgchoes {
+  position: absolute;
+  width: 1604px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.shoes .overlap-group {
+  position: relative;
+  width: 1600px;
+  height: 954px;
+  background-image: url(../img/bg_shoes.png);
+  background-size: 100% 100%;
+}
+
+.shoes .text-wrapper {
+  position: absolute;
+  top: 177px;
+  left: 728px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shoes .text-wrapper-2 {
+  position: absolute;
+  top: 246px;
+  left: 689px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shoes .choes {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.shoes .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/choes_1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.shoes .vector {
+  left: 235px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.shoes .text-wrapper-3 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.shoes .text-wrapper-4 {
+  top: 399px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.shoes .choes-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.shoes .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/choes_2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.shoes .choes-3 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.shoes .img-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/choes_3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.shoes .choes-4 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.shoes .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/choes_4.png);
+  background-size: 100% 100%;
+}
+
+.shoes .img {
+  position: absolute;
+  width: 570px;
+  height: 712px;
+  top: 1630px;
+  left: 215px;
+}
+
+.shoes .choes-5 {
+  position: absolute;
+  width: 574px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.shoes .programmer-s {
+  position: absolute;
+  top: 669px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.shoes .text-wrapper-5 {
+  top: 695px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.shoes .overlap-3 {
+  position: absolute;
+  width: 570px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/choes_6.png);
+  background-size: 100% 100%;
+}
+
+.shoes .vector-2 {
+  left: 535px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.shoes .text-wrapper-6 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+.bags {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.bags .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.bags .bgbags {
+  position: absolute;
+  width: 1606px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.bags .overlap-group {
+  position: relative;
+  width: 1602px;
+  height: 954px;
+  background-image: url(../img/bags_bg.png);
+  background-size: 100% 100%;
+}
+
+.bags .text-wrapper {
+  position: absolute;
+  top: 177px;
+  left: 740px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bags .text-wrapper-2 {
+  position: absolute;
+  top: 246px;
+  left: 689px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bags .bag {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.bags .text-wrapper-3 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.bags .text-wrapper-4 {
+  top: 399px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.bags .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/bag-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bags .vector {
+  left: 235px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.bags .bag-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.bags .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/bag-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bags .bag-3 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.bags .img-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/bag-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bags .bag-4 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.bags .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/bag-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bags .bag-5 {
+  position: absolute;
+  width: 575px;
+  height: 712px;
+  top: 1630px;
+  left: 215px;
+}
+
+.bags .text-wrapper-5 {
+  position: absolute;
+  top: 669px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.bags .text-wrapper-6 {
+  top: 695px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.bags .overlap-3 {
+  position: absolute;
+  width: 571px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/bag-5.png);
+  background-size: 100% 100%;
+}
+
+.bags .img {
+  left: 535px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.bags .bag-6 {
+  position: absolute;
+  width: 574px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.bags .overlap-4 {
+  position: absolute;
+  width: 570px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/bag-6.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bags .text-wrapper-7 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.for-women {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.for-women .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.for-women .bgwomen {
+  position: absolute;
+  width: 1604px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.for-women .overlap-group {
+  position: relative;
+  width: 1600px;
+  height: 954px;
+  background-image: url(../img/for_women_bg.png);
+  background-size: 100% 100%;
+}
+
+.for-women .text-wrapper {
+  position: absolute;
+  width: 224px;
+  top: 246px;
+  left: 689px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.for-women .text-wrapper-2 {
+  position: absolute;
+  width: 279px;
+  top: 177px;
+  left: 662px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.for-women .women {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.for-women .text-wrapper-3 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.for-women .text-wrapper-4 {
+  position: absolute;
+  top: 399px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.for-women .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/women_1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.for-women .vector {
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+  left: 235px;
+}
+
+.for-women .women-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.for-women .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/women_2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.for-women .women-3 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.for-women .img-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/women_3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.for-women .women-4 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.for-women .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/women_4.png);
+  background-size: 100% 100%;
+}
+
+.for-women .women-5 {
+  position: absolute;
+  width: 574px;
+  height: 712px;
+  top: 1630px;
+  left: 215px;
+}
+
+.for-women .text-wrapper-5 {
+  position: absolute;
+  top: 669px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.for-women .text-wrapper-6 {
+  position: absolute;
+  top: 695px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.for-women .overlap-3 {
+  position: absolute;
+  width: 570px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/women_5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.for-women .img {
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+  left: 535px;
+}
+
+.for-women .women-6 {
+  position: absolute;
+  width: 574px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.for-women .overlap-4 {
+  position: absolute;
+  width: 570px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/women_6.png);
+  background-size: 100% 100%;
+}
+
+.for-women .text-wrapper-7 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.for-men {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.for-men .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.for-men .bgmen {
+  position: absolute;
+  width: 1604px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.for-men .overlap-group {
+  position: relative;
+  width: 1600px;
+  height: 954px;
+  background-image: url(../img/for_men_bg.png);
+  background-size: 100% 100%;
+}
+
+.for-men .text-wrapper {
+  position: absolute;
+  width: 206px;
+  top: 179px;
+  left: 697px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.for-men .text-wrapper-2 {
+  position: absolute;
+  width: 225px;
+  top: 248px;
+  left: 688px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.for-men .men {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.for-men .text-wrapper-3 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.for-men .text-wrapper-4 {
+  position: absolute;
+  top: 399px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.for-men .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/men_1.png);
+  background-size: 100% 100%;
+}
+
+.for-men .vector {
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+  left: 235px;
+}
+
+.for-men .men-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.for-men .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/men_2.png);
+  background-size: 100% 100%;
+}
+
+.for-men .men-3 {
+  position: absolute;
+  width: 273px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.for-men .img-wrapper {
+  position: absolute;
+  width: 269px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/men_3.png);
+  background-size: 100% 100%;
+}
+
+.for-men .men-4 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.for-men .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/men_4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.for-men .men-5 {
+  position: absolute;
+  width: 580px;
+  height: 712px;
+  top: 1630px;
+  left: 209px;
+}
+
+.for-men .text-wrapper-5 {
+  position: absolute;
+  top: 669px;
+  left: 6px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.for-men .text-wrapper-6 {
+  left: 6px;
+  position: absolute;
+  top: 695px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.for-men .overlap-3 {
+  position: absolute;
+  width: 576px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/men_5.png);
+  background-size: 100% 100%;
+}
+
+.for-men .img {
+  left: 541px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.for-men .men-6 {
+  position: absolute;
+  width: 589px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.for-men .text-wrapper-7 {
+  position: absolute;
+  top: 669px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.for-men .text-wrapper-8 {
+  left: 0;
+  position: absolute;
+  top: 695px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.for-men .overlap-4 {
+  position: absolute;
+  width: 585px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/men_6.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.for-men .vector-2 {
+  left: 535px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.for-men .text-wrapper-9 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+.forkids {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.forkids .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.forkids .bg-kid {
+  position: absolute;
+  width: 1604px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.forkids .overlap-group {
+  position: relative;
+  width: 1600px;
+  height: 954px;
+  background-image: url(../img/kid_bg.png);
+  background-size: 100% 100%;
+}
+
+.forkids .text-wrapper {
+  position: absolute;
+  width: 198px;
+  top: 179px;
+  left: 701px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forkids .text-wrapper-2 {
+  position: absolute;
+  width: 225px;
+  top: 248px;
+  left: 688px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forkids .kids {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.forkids .text-wrapper-3 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.forkids .text-wrapper-4 {
+  top: 399px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.forkids .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/kids_1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.forkids .vector {
+  left: 235px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.forkids .kids-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.forkids .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/kids_2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.forkids .kids-3 {
+  position: absolute;
+  width: 273px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.forkids .img-wrapper {
+  position: absolute;
+  width: 269px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/kids_3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.forkids .kids-4 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.forkids .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/kids_4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.forkids .kids-5 {
+  position: absolute;
+  width: 580px;
+  height: 712px;
+  top: 1630px;
+  left: 209px;
+}
+
+.forkids .children-s-shirt {
+  top: 669px;
+  left: 6px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.forkids .text-wrapper-5 {
+  top: 695px;
+  left: 6px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.forkids .overlap-3 {
+  position: absolute;
+  width: 576px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/kids_5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.forkids .img {
+  left: 541px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.forkids .kids-6 {
+  position: absolute;
+  width: 589px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.forkids .text-wrapper-6 {
+  position: absolute;
+  top: 669px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.forkids .text-wrapper-7 {
+  top: 695px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.forkids .overlap-4 {
+  position: absolute;
+  width: 585px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/kids_6.png);
+  background-size: 100% 100%;
+}
+
+.forkids .vector-2 {
+  left: 535px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.forkids .text-wrapper-8 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.scarves {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.scarves .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.scarves .bgscar {
+  position: absolute;
+  width: 1604px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.scarves .overlap-group {
+  position: relative;
+  width: 1600px;
+  height: 954px;
+  background-image: url(../img/pexels-anastasiya-gepp-2036646%201.png);
+  background-size: 100% 100%;
+}
+
+.scarves .text-wrapper {
+  position: absolute;
+  width: 186px;
+  top: 179px;
+  left: 707px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.scarves .text-wrapper-2 {
+  position: absolute;
+  width: 225px;
+  top: 248px;
+  left: 688px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.scarves .scraves {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.scarves .text-wrapper-3 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.scarves .text-wrapper-4 {
+  top: 399px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.scarves .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/Scraves_1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.scarves .vector {
+  left: 235px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.scarves .scraves-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.scarves .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/scraves_2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.scarves .scraves-3 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.scarves .img-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/scraves_3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.scarves .scraves-4 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.scarves .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/scraves_4.png);
+  background-size: 100% 100%;
+}
+
+.scarves .scraves-5 {
+  position: absolute;
+  width: 580px;
+  height: 712px;
+  top: 1630px;
+  left: 209px;
+}
+
+.scarves .text-wrapper-5 {
+  position: absolute;
+  top: 669px;
+  left: 6px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.scarves .text-wrapper-6 {
+  top: 695px;
+  left: 6px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.scarves .overlap-3 {
+  position: absolute;
+  width: 576px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/scraves_5.png);
+  background-size: 100% 100%;
+}
+
+.scarves .img {
+  left: 541px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.scarves .scraves-6 {
+  position: absolute;
+  width: 574px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.scarves .text-wrapper-7 {
+  position: absolute;
+  top: 669px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.scarves .text-wrapper-8 {
+  top: 695px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.scarves .overlap-4 {
+  position: absolute;
+  width: 570px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/scraves_6.png);
+  background-size: 100% 100%;
+}
+
+.scarves .vector-2 {
+  left: 535px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.scarves .text-wrapper-9 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.glasses {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.glasses .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.glasses .glasses-bg {
+  position: absolute;
+  width: 1604px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.glasses .overlap-group {
+  position: relative;
+  width: 1600px;
+  height: 954px;
+  background-image: url(../img/glasses_bg.png);
+  background-size: 100% 100%;
+}
+
+.glasses .text-wrapper {
+  position: absolute;
+  width: 183px;
+  top: 179px;
+  left: 709px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.glasses .text-wrapper-2 {
+  width: 225px;
+  top: 248px;
+  left: 688px;
+  color: #000000;
+  font-size: 24px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.glasses .div-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.glasses .text-wrapper-3 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.glasses .text-wrapper-4 {
+  top: 399px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.glasses .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/glasses_1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.glasses .vector {
+  left: 235px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.glasses .div-3 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.glasses .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/glasses_2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.glasses .div-4 {
+  position: absolute;
+  width: 273px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.glasses .img-wrapper {
+  position: absolute;
+  width: 269px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/glasses_3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.glasses .div-5 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.glasses .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/glasses_4.png);
+  background-size: 100% 100%;
+}
+
+.glasses .div-6 {
+  position: absolute;
+  width: 580px;
+  height: 712px;
+  top: 1630px;
+  left: 209px;
+}
+
+.glasses .text-wrapper-5 {
+  top: 669px;
+  left: 6px;
+  color: #2c2c2c;
+  font-size: 16px;
+  line-height: 18.2px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.glasses .text-wrapper-6 {
+  top: 695px;
+  left: 6px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.glasses .overlap-3 {
+  position: absolute;
+  width: 576px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/glasses_5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.glasses .img {
+  left: 541px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.glasses .div-7 {
+  position: absolute;
+  width: 589px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.glasses .text-wrapper-7 {
+  position: absolute;
+  top: 669px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.glasses .text-wrapper-8 {
+  top: 695px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.glasses .overlap-4 {
+  position: absolute;
+  width: 585px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/glasses_6.png);
+  background-size: 100% 100%;
+}
+
+.glasses .vector-2 {
+  left: 535px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.glasses .text-wrapper-9 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watch {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.watch .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 2540px;
+  position: relative;
+}
+
+.watch .bgwatches {
+  position: absolute;
+  width: 1604px;
+  height: 954px;
+  top: 0;
+  left: 0;
+}
+
+.watch .overlap-group {
+  position: relative;
+  width: 1600px;
+  height: 954px;
+  background-image: url(../img/watches_bg.png);
+  background-size: 100% 100%;
+}
+
+.watch .text-wrapper {
+  position: absolute;
+  width: 216px;
+  top: 179px;
+  left: 692px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watch .text-wrapper-2 {
+  position: absolute;
+  width: 225px;
+  top: 248px;
+  left: 688px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watch .watches {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 215px;
+}
+
+.watch .p {
+  top: 373px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.watch .text-wrapper-3 {
+  top: 399px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.watch .overlap {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/watches_1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.watch .vector {
+  left: 235px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.watch .watches-2 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 515px;
+}
+
+.watch .vector-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/watches_2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.watch .watches-3 {
+  position: absolute;
+  width: 273px;
+  height: 416px;
+  top: 1161px;
+  left: 815px;
+}
+
+.watch .img-wrapper {
+  position: absolute;
+  width: 269px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/watches_3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.watch .watches-4 {
+  position: absolute;
+  width: 274px;
+  height: 416px;
+  top: 1161px;
+  left: 1115px;
+}
+
+.watch .overlap-2 {
+  position: absolute;
+  width: 270px;
+  height: 353px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/watches_4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.watch .watches-5 {
+  position: absolute;
+  width: 580px;
+  height: 712px;
+  top: 1630px;
+  left: 209px;
+}
+
+.watch .text-wrapper-4 {
+  top: 669px;
+  left: 6px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.watch .text-wrapper-5 {
+  top: 695px;
+  left: 6px;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.watch .overlap-3 {
+  position: absolute;
+  width: 576px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/watches_5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.watch .img {
+  left: 541px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.watch .watches-6 {
+  position: absolute;
+  width: 589px;
+  height: 712px;
+  top: 1630px;
+  left: 815px;
+}
+
+.watch .text-wrapper-6 {
+  top: 669px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.watch .text-wrapper-7 {
+  top: 695px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  white-space: nowrap;
+}
+
+.watch .overlap-4 {
+  position: absolute;
+  width: 585px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/watches_6.png);
+  background-size: 100% 100%;
+}
+
+.watch .vector-2 {
+  left: 535px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 17px;
+}
+
+.watch .text-wrapper-8 {
+  position: absolute;
+  top: 1038px;
+  left: 711px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
