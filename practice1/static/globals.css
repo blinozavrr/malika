@@ -1,43 +1,10 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-@import url("https://fonts.googleapis.com/css?family=Montserrat:500,400");
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Montserrat-Medium';
-    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
-    font-weight: 400;
-}
     
 a {
     text-decoration: none;
 }
-.invisiblebox747 {
-  position: fixed;
-width: 1600px;
-height: 747px;
-top: 0;
-left: 0;
-background-color: #ffffff;
-}
 
 html {
-  background-color:#ffffff;
+  background-color:white;
   background-blend-mode:overlay;
   display:flex;
   align-items:center;
@@ -485,4 +452,36 @@ line-height: normal;
     transition: opacity 1s ease-in-out;
 }
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,400");
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+.invisiblebox747 {
+  position: fixed;
+width: 1600px;
+height: 747px;
+top: 0;
+left: 0;
+background-color: #ffffff;
+}
